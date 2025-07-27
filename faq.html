@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ | Academia DEV</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Header -->
+ <header class="bg-fuchsia-900 p-4">
+      <div class="flex justify-between items-center max-w-7xl mx-auto">
+        <h1 class="text-2xl text-white font-bold"><a href="index.html">Academia DEV</a></h1>
+
+        <!-- Botón hamburguesa -->
+        <button id="menu-btn" class="text-white md:hidden focus:outline-none">
+          <svg
+            class="w-8 h-8 btn-svg"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+
+        <!-- Menú grande -->
+        <nav class="hidden md:flex space-x-6 text-white font-semibold">
+          <a href="cursos.html" class="hover:text-fuchsia-200">Cursos</a>
+          <a href="faq.html" class="hover:text-fuchsia-200">FAQ</a>
+          <a href="nosotros.html" class="hover:text-fuchsia-200">Nosotros</a>
+          <a href="contacto.html" class="hover:text-fuchsia-200">Contacto</a>
+        </nav>
+      </div>
+
+      <!-- Menú móvil -->
+      <nav
+        id="mobile-menu"
+        class="md:hidden hidden mt-2 space-y-2 text-white font-semibold px-2"
+      >
+        <a href="cursos.html" class="block hover:text-fuchsia-200">Cursos</a>
+        <a href="faq.html" class="block hover:text-fuchsia-200">FAQ</a>
+        <a href="nosotros.html" class="block hover:text-fuchsia-200">Nosotros</a>
+        <a href="contacto.html" class="block hover:text-fuchsia-200">Contacto</a>
+      </nav>
+    </header>
+
+
+  <!-- Hero -->
+  <section class="text-center bg-fuchsia-800 text-white py-12">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Preguntas Frecuentes</h2>
+    <p class="text-lg md:text-xl max-w-2xl mx-auto">Encuentra respuestas a las dudas más comunes sobre nuestros cursos, pagos y modalidad.</p>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="bg-gray-50 py-12">
+    <div class="max-w-5xl mx-auto p-6 space-y-4">
+      <!-- Pregunta 1 -->
+      <div class="border border-gray-300 rounded-lg p-4 bg-white shadow">
+        <button class="text-gray-700 w-full flex justify-between items-center text-left font-semibold text-lg toggle-btn">
+          ¿Necesito experiencia previa para inscribirme en un curso?
+          <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-2 text-gray-600 hidden">
+          No. Contamos con cursos tanto para principiantes como para personas con experiencia previa. Puedes comenzar desde cero.
+        </div>
+      </div>
+
+      <!-- Pregunta 2 -->
+      <div class="border border-gray-300 rounded-lg p-4 bg-white shadow">
+        <button class="text-gray-700 w-full flex justify-between items-center text-left font-semibold text-lg toggle-btn">
+          ¿Cuál es la modalidad de los cursos?
+          <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-2 text-gray-600 hidden">
+          Todos nuestros cursos se dictan 100% online, con clases grabadas y sesiones en vivo de consultas.
+        </div>
+      </div>
+
+      <!-- Pregunta 3 -->
+      <div class="border border-gray-300 rounded-lg p-4 bg-white shadow">
+        <button class="text-gray-700 w-full flex justify-between items-center text-left font-semibold text-lg toggle-btn">
+          ¿Qué métodos de pago aceptan?
+          <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-2 text-gray-600 hidden">
+          Aceptamos pagos con tarjeta de crédito, débito, PayPal y transferencias bancarias.
+        </div>
+      </div>
+
+      <!-- Pregunta 4 -->
+      <div class="border border-gray-300 rounded-lg p-4 bg-white shadow">
+        <button class="text-gray-700 w-full flex justify-between items-center text-left font-semibold text-lg toggle-btn">
+          ¿Entregan certificados al finalizar?
+          <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-2 text-gray-600 hidden">
+          Sí. Al finalizar y aprobar el curso, recibirás un certificado digital avalado por Academia DEV.
+        </div>
+      </div>
+
+      <!-- Pregunta 5 -->
+      <div class="border border-gray-300 rounded-lg p-4 bg-white shadow">
+        <button class="text-gray-700 w-full flex justify-between items-center text-left font-semibold text-lg toggle-btn">
+          ¿Puedo acceder al contenido luego de terminar el curso?
+          <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-2 text-gray-600 hidden">
+          Sí, tendrás acceso a las clases grabadas y materiales del curso de forma indefinida.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-fuchsia-900 text-white p-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+      <p class="text-center md:text-left">&copy; 2025 Academia DEV. Todos los derechos reservados.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-fuchsia-300">Política de privacidad</a>
+        <a href="#" class="hover:text-fuchsia-300">Términos de uso</a>
+      </div>
+      <div class="flex gap-4">
+        <a href="#"><img src="img/facebook.svg" class="w-6 h-6" alt="Facebook" /></a>
+        <a href="#"><img src="img/instagram.svg" class="w-6 h-6" alt="Instagram" /></a>
+        <a href="#"><img src="img/twitter.svg" class="w-6 h-6" alt="Twitter" /></a>
+      </div>
+    </div>
+  </footer>
+<script src="app.js"></script>
+</body>
+</html>
