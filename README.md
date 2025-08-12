@@ -5,6 +5,18 @@ Incluye las páginas principales: inicio, cursos, preguntas frecuentes (FAQ) y c
 
 ---
 
+## 📸 Capturas
+
+![Imagen sitio AcademiaDev](https://i.imgur.com/vbMBq1f.png)
+
+![Imagen sitio AcademiaDev cursos](https://i.imgur.com/itbbqWQ.png)
+
+![Imagen sitio AcademiaDev faq](https://i.imgur.com/XEAp2wY.png)
+
+
+
+---
+
 ## 🚀 Características
 
 - **Diseño responsive** para dispositivos móviles, tablets y desktops.
