@@ -24,6 +24,7 @@ Incluye las páginas principales: inicio, cursos, preguntas frecuentes (FAQ) y c
 
 ## 📂 Estructura del proyecto
 
+```
 AcademiaDEV/
 │── index.html
 │── cursos.html
@@ -45,6 +46,7 @@ AcademiaDEV/
 │ ├── devops.png
 │ └── imghero.webp
 └── README.md
+```
 
 ## 🛠 Tecnologías utilizadas
 
